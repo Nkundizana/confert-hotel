@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:yellowgreen;
+    color: red;
+}
+
+/* Header */
+header {
+    background-color:blue;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav {
+    background-color:S;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    color: #ff9800;
+}
+
+/* Footer */
+footer {
+    background-color: yellow;
+    color: blue;
+    text-align: center;
+    padding: 0.5rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+/* Content Section */
+section {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+h2 {
+    color: #444;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.accommodation-page {
+    background-image: url('accomodation1.jpeg'); /* Path to the background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    height: 100vh;
+    margin: 0;
+}
+.home-page {
+    background-image: url('home1.jpeg'); /* Path to the background image */
+    background-size: cover; /* Make the image cover the entire screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    color: white; /* Set text color to white for contrast */
+    height: 100vh; /* Ensure the background takes up the full viewport height */
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
